@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string name="menuAddContact">Add Contact</string>
+    <string name="menuDeleteContact">Delete Contact</string>
+    <string name="menuViewContact">View Contact</string>
+    <string name="menuShowDialog">Show Dialog</string>
+    <string name="menuMenu">Menu</string>
+    <string name="menuBrowser">Web Browser</string>
+
+    <string name="dialogMessage">
+        Choose whether to show the image or the menu when the app starts
+    </string>
+    <string name="dialogTitle">My Settings</string>
+    <string name="dialogPositiveLabel">Show \nImage</string>
+    <string name="dialogNegativeLabel">Show \nMenu</string>
+    <string name="dialogNeutralLabel">Do \nNothing</string>
+
+    <string name="mainActivityTextViewText">Use the menu for navigation</string>
+
+    <string name="displayContactNameHint">Display Name</string>
+    <string name="displayContactEmailHint">Display Email</string>
+    <string name="displayContactPhoneHint">Display Phone</string>
+    <string name="displayContactImageDescription">Contacts Image</string>
+    <string name="deleteContactButtonLabel">Delete Contact</string>
+
+    <string name="contactNameLabel">Name:</string>
+    <string name="contactEmailLabel">Email:</string>
+    <string name="contactPhoneLabel">Phone:</string>
+    <string name="contactNameHint">Enter name</string>
+    <string name="contactEmailHint">Enter email</string>
+    <string name="contactPhoneHint">Enter phone</string>
+    <string name="radioGroupLabel">Sex:</string>
+    <string name="radioLabelMale">Male</string>
+    <string name="radioLabelFemale">Female</string>
+    <string name="saveContactButtonLabel">Save</string>
+    <string name="viewContactsButtonLabel">View Contacts</string>
+    <string name="addContactsButtonLabel">Add Contacts</string>
+    <string name="deleteContactsButtonLabel">Delete Contacts</string>
+    <string name="menuHome">Show Home Screen</string>
+    <string name="myNewString">My new string</string>
+    <string name="ebook_info">Tell me more</string>
+    <string name="menuEbook">Get the eBook</string>
+
+</resources>

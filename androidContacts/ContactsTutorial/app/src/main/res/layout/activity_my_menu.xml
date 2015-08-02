@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonViewContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewContacts"
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/viewContactsButtonLabel"/>
+
+        <Button
+            android:id="@+id/buttonAddContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/addContactsButtonLabel"/>
+
+        <Button
+            android:id="@+id/buttonDeleteContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/deleteContactsButtonLabel"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="displayContactTopMargin">10dp</dimen>
+    <dimen name="displayContactPadding">5dp</dimen>
+
+    <dimen name="textSizeMedium">18sp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+
+</resources>

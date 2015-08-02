@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_array">
+        <item>Harry</item>
+        <item>Henry</item>
+        <item>Paul</item>
+        <item>Mary</item>
+        <item>Stuart</item>
+        <item>William</item>
+        <item>Ben</item>
+        <item>David</item>
+        <item>Jenny</item>
+        <item>Elizabeth</item>
+    </string-array>
+
+    <string-array name="email_array">
+        <item>Harry@gmail.com</item>
+        <item>Henry@gmail.com</item>
+        <item>Paul@gmail.com</item>
+        <item>Mary@gmail.com</item>
+        <item>Stuart@gmail.com</item>
+        <item>William@gmail.com</item>
+        <item>Ben@gmail.com</item>
+        <item>David@gmail.com</item>
+        <item>Jenny@gmail.com</item>
+        <item>Elizabeth@gmail.com</item>
+    </string-array>
+
+    <string-array name="phone_array">
+        <item>12345678</item>
+        <item>09876543</item>
+        <item>87332098</item>
+        <item>73635093</item>
+        <item>39863542</item>
+        <item>39725411</item>
+        <item>09376423</item>
+        <item>93752393</item>
+        <item>09375234</item>
+        <item>09353829</item>
+    </string-array>
+
+    <array name="contact_images">
+        <item>@drawable/harry</item>
+        <item>@drawable/henry</item>
+        <item>@drawable/paul</item>
+        <item>@drawable/mary</item>
+        <item>@drawable/stuart</item>
+        <item>@drawable/william</item>
+        <item>@drawable/ben</item>
+        <item>@drawable/david</item>
+        <item>@drawable/jenny</item>
+        <item>@drawable/elizabeth</item>
+
+    </array>
+
+</resources>
