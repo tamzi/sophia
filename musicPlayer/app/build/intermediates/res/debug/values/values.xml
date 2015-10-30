@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/v/Desktop/A_S_workspace/MusicPlayer/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">AndroidBuildingMusicPlayer</string>
+    <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
+</resources>
