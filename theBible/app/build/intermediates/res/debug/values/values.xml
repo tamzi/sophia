@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/v/Desktop/A_S_workspace/TheBible/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="search_methods">
+        <item>Exact phrase</item>
+        <item>All words in search term</item>
+        <item>Any words in search term</item>
+    </string-array>
+    <string-array name="search_scope">
+        <item>All Books</item>
+        <item>Old Testament</item>
+        <item>New Testament</item>
+        <item>Select Books...</item>
+    </string-array>
+    <!-- From: file:/C:/Users/v/Desktop/A_S_workspace/TheBible/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Simple Bible KJV</string>
+</resources>
