@@ -1,0 +1,58 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:21:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:22:2
+	package
+		ADDED from AndroidManifest.xml:23:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:25:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:24:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:26:2
+	android:label
+		ADDED from AndroidManifest.xml:28:3
+	android:icon
+		ADDED from AndroidManifest.xml:27:3
+activity#uk.co.sinjakli.trivial.HomeActivity
+ADDED from AndroidManifest.xml:29:3
+	android:label
+		ADDED from AndroidManifest.xml:31:4
+	android:name
+		ADDED from AndroidManifest.xml:30:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:34:6
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:36:6
+activity#uk.co.sinjakli.trivial.QuizActivity
+ADDED from AndroidManifest.xml:39:3
+	android:label
+		ADDED from AndroidManifest.xml:40:33
+	android:name
+		ADDED from AndroidManifest.xml:40:4
+activity#uk.co.sinjakli.trivial.QuizEndActivity
+ADDED from AndroidManifest.xml:41:2
+	android:label
+		ADDED from AndroidManifest.xml:41:43
+	android:name
+		ADDED from AndroidManifest.xml:41:12
+uses-sdk
+ADDED from AndroidManifest.xml:43:2
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:44:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

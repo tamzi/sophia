@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/v/Desktop/A_S_workspace/Trivia/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <plurals name="question_reading_parse_fail_number">
+        <item quantity="one">1 question could not be parsed, and has been logged. Please send the developer a bug report including log output.</item>
+        <item quantity="other">%1$d questions could not be parsed, and have been logged. Please send the developer a bug report including log output.</item>
+    </plurals>
+    <string name="answer_correct">Correct!</string>
+    <string name="answer_incorrect">Incorrect!</string>
+    <string name="app_name">Trivial</string>
+    <string name="correct_answers_header">Correct</string>
+    <string name="incorrect_answers_header">Incorrect</string>
+    <string name="invalid_number_of_questions">The number of questions specified was invalid.</string>
+    <string name="number_of_questions">Number of questions:</string>
+    <string name="question_reading_exception">A problem was encountered while loading the questions, and has been logged. Please send the developer a bug report including log output.</string>
+    <string name="quiz_end_accept_button">Return to main menu</string>
+    <string name="quiz_end_header">End of Quiz</string>
+    <string name="start_quiz">Start Quiz</string>
+</resources>
