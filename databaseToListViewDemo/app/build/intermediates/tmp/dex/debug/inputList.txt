@@ -1,0 +1,2 @@
+C:\Users\v\Desktop\A_S_workspace\DatabaseToListViewDemo\app\build\intermediates\classes\debug
+C:\Users\v\Desktop\A_S_workspace\DatabaseToListViewDemo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-2205dc014a04cdd7fdcc3c6d3e2e8c6be689c2fc.jar
