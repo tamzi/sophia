@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleHeight="0.25f"
+    android:scaleWidth="0.25f"
+    android:scaleGravity="center"
+    android:src="@drawable/octocat" >
+
+</scale><!-- From: file:/C:/Users/v/Desktop/A_S_workspace/sqlite/example2/example/src/main/res/drawable/octocat_scaled.xml -->
