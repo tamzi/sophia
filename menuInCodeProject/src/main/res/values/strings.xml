@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Code Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="green">Green background</string>
+    <string name="orange">Orange background</string>
+    <string name="yellow">Yellow background</string>
+
+    <string name="sub_menu_title">Submenu Title</string>
+    <string name="sub_menu_item_one">Submenu item one</string>
+    <string name="sub_menu_item_two">Submenu item two</string>
+    <string name="startActivityOne">Start Activity One</string>
+    <string name="startActivityTwo">Start Activity Two</string>
+    <string name="go_home">Go Home</string>
+
+</resources>
