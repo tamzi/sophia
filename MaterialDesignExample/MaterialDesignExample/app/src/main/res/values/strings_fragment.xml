@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment Names -->
+    <string name="fragment_names_fragment1">Fragment 1</string>
+
+    <!-- Drawer Menu -->
+    <string name="fragment_drawerMenu_text_fragment1">Fragment 1</string>
+    <string name="fragment_drawerMenu_text_fragment2">Fragment 2</string>
+    <string name="fragment_drawerMenu_text_fragment3">Fragment 3</string>
+
+
+    <string-array name="fragment_drawerMenu_title">
+        <item>@string/fragment_drawerMenu_text_fragment1</item>
+        <item>@string/fragment_drawerMenu_text_fragment2</item>
+        <item>@string/fragment_drawerMenu_text_fragment3</item>
+    </string-array>
+
+
+
+    <!-- Sectios Tabs -->
+    <string name="fragment_home_fragment1_title">Fragment 1</string>
+    <string name="fragment_home_fragment2_title">Fragment 2</string>
+    <string name="fragment_home_fragment3_title">Fragment 3</string>
+
+
+    <string-array name="fragment_home_sections_tabs_title">
+        <item>@string/fragment_home_fragment1_title</item>
+        <item>@string/fragment_home_fragment2_title</item>
+        <item>@string/fragment_home_fragment3_title</item>
+    </string-array>
+
+</resources>
