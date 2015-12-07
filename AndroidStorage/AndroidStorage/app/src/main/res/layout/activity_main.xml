@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shared_preferences"
+            android:id="@+id/btnSharedPreferences"
+            android:onClick="getSharedPreferences"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/internal_storage"
+            android:id="@+id/btnInternalStorage"
+            android:onClick="getInternalStorage"
+            android:layout_below="@+id/btnSharedPreferences"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/external_storage"
+            android:id="@+id/btnExternalStorage"
+            android:onClick="getExternalStorage"
+            android:layout_below="@+id/btnInternalStorage"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sqlite_database"
+            android:id="@+id/btnSqlite"
+            android:onClick="getSqlite"
+            android:layout_below="@+id/btnExternalStorage"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/web_service"
+            android:id="@+id/btnWebservice"
+            android:onClick="getWebservice"
+            android:layout_below="@+id/btnSqlite"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>
