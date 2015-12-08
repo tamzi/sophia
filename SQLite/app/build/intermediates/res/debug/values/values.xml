@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/v/Desktop/A_studio_Projs/SQLite/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Android SQLite App</string>
+    <string name="hello">Blank</string>
+</resources>
