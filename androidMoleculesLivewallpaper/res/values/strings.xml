@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Molecules</string>
+    <string name="app_description">Different rotating molecules.</string>
+    <string name="settings_title">Molecules Live Wallpaper Settings</string>
+    <string name="settings_molecules_title">Molecule</string>
+    <string name="settings_overlay_title">Overlay</string>
+    <string name="settings_random_title">Random Molecule</string>
+    <string name="settings_visualStyle_title">Visual Style</string>
+    <string name="settings_spinx_title">Spin X</string>
+    <string name="settings_spiny_title">Spin Y</string>
+    <string name="settings_spinz_title">Spin Z</string>
+    <string name="settings_category_data_title">Molecule</string>
+    <string name="settings_category_appearance_title">Appearance</string>
+    <string name="settings_category_movement_title">Rotation</string>
+	<string name="settings_ontouch_title">Show Name on Touch</string>  
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="overlay">
+        <item >none</item>
+        <item >black (80%)</item>
+        <item >black (60%)</item>
+        <item >black (40%)</item>
+        <item >black (20%)</item>
+        <item >white (80%)</item>
+        <item >white (60%)</item>
+        <item >white (40%)</item>
+        <item >white (20%)</item>
+    </string-array>
+    <string-array name="overlay_values">
+        <item ></item>
+        <item >#C8000000</item>
+        <item >#96000000</item>
+        <item >#64000000</item>
+        <item >#32000000</item>
+        <item >#C8FFFFFF</item>
+        <item >#96FFFFFF</item>
+        <item >#64FFFFFF</item>
+        <item >#32FFFFFF</item>        
+    </string-array>
+    <string-array name="visualStyle">
+        <item>Space Filling</item>
+        <item>Ball and Stick</item>
+        <item>Stick Model</item>
+        <item>Wireframe</item>
+    </string-array>
+    <string-array name="visualStyle_values">
+        <item>spacefilling</item>
+        <item>ballnstick</item>
+        <item>stickmodel</item>
+        <item>wireframe</item>
+    </string-array>
+
+    
+</resources>
