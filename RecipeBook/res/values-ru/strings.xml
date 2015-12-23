@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Поваренок</string>
+    
+	<string name="label_info">Информация</string>
+	<string name="version_format">Версия %s</string>
+    
+	<string name="snacks">Закуски</string>
+	<string name="salads">Салаты</string>
+	<string name="first">Первые блюда</string>
+	<string name="second">Вторые блюда</string>
+	<string name="desserts">Десерты</string>
+	<string name="beverages">Напитки</string>
+	
+    <string name="favorite">Избранное</string>
+    
+</resources>
