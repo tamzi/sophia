@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+             android:stretchColumns="1"
+             android:shrinkColumns="1"
+             android:background="#52F017">
+
+    <TableRow android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/loan_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Loan Amount"
+            android:inputType="numberDecimal" >
+
+            <requestFocus android:layout_width="match_parent" >
+</requestFocus>
+        </EditText>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+         android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/interest_rate"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Interest Rate"
+            android:inputType="numberDecimal" />
+
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/loan_period"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Loan Period(Months)"
+            android:inputType="number" />
+
+    </TableRow>
+    <TableRow   android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <Button android:text="Calculate" 
+                android:layout_span="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showLoanPayments"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="50dp">
+        <TextView android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
+                  android:text="Monthly Payments:" 
+                  android:gravity="left"/>
+        <TextView android:id="@+id/monthly_payment_result"
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
+                  android:textColor="#ff0000"
+                  android:gravity="left"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
+                  android:text="Total Payments:" 
+                  android:gravity="left"/>
+        <TextView android:id="@+id/total_payments_result"
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
+                  android:textColor="#ff0000"
+                  android:gravity="left"/>
+    </TableRow>
+</TableLayout>
+

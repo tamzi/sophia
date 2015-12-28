@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="Deprecated">
+        <ignore path="res/layout/bfr.xml" />
+        <ignore path="res/layout/cagr.xml" />
+        <ignore path="res/layout/cf.xml" />
+        <ignore path="res/layout/lr.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/amortization.xml" />
+        <ignore path="res/layout/bfr.xml" />
+        <ignore path="res/layout/cagr.xml" />
+        <ignore path="res/layout/cf.xml" />
+    </issue>
+    <issue id="IconDuplicatesConfig">
+        <ignore path="res/drawable/other.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="res/drawable/amortization.png" />
+        <ignore path="res/drawable/balance.png" />
+        <ignore path="res/drawable/cagr.png" />
+        <ignore path="res/drawable/cashflow.png" />
+        <ignore path="res/drawable/compoundinterest.png" />
+    </issue>
+    <issue id="MangledCRLF">
+        <ignore path="res/layout/bfr.xml" />
+        <ignore path="res/layout/cagr.xml" />
+        <ignore path="res/layout/cf.xml" />
+        <ignore path="res/layout/lr.xml" />
+        <ignore path="res/layout/rost.xml" />
+    </issue>
+    <issue id="UseValueOf">
+        <ignore path="src/startappzke/calsheet/Bfr.java" />
+        <ignore path="src/startappzke/calsheet/Cagr.java" />
+        <ignore path="src/startappzke/calsheet/CashFlow.java" />
+        <ignore path="src/startappzke/calsheet/CompoundInterest.java" />
+        <ignore path="src/startappzke/calsheet/Depreciation.java" />
+    </issue>
+</lint>

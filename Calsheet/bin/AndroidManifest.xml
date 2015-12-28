@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="startappzke.calsheet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/other"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity android:name=".BalanceSheet1"
+            android:screenOrientation="portrait" />
+        
+        <activity android:name=".Bfr"
+            android:screenOrientation="portrait"
+            android:label="Business Fraction Ratio" />
+        
+        <activity android:name=".Amortization"
+            android:screenOrientation="portrait" 
+            android:label="Amortization"/>
+        
+        <activity android:name=".Rost"
+            android:screenOrientation="portrait"
+            android:label="Rate of stock turnover" />
+        
+        <activity android:name=".Cagr"
+            android:screenOrientation="portrait"
+            android:label="Compound annual growth rate" />
+        
+        <activity android:name=".LeverageRatio"
+            android:screenOrientation="portrait"
+            android:label="Leverage ratio" />
+        
+        <activity android:name=".CashFlow"
+            android:screenOrientation="portrait"
+            android:label="Cash flow" />
+        
+        <activity android:name=".Depreciation"
+            android:screenOrientation="portrait"
+            android:label="Depreciation" />
+        
+        <activity android:name=".CompoundInterest"
+            android:screenOrientation="portrait"
+            android:label="Compound Interest" />
+        
+        <activity android:name=".SimpleInterest"
+            android:screenOrientation="portrait"
+            android:label="Simple Interest" />
+        
+        <activity android:name=".Finance"
+            android:screenOrientation="portrait"
+            android:label="Financial Calculation" />
+        
+        <activity android:name=".BalanceSheet"
+            android:screenOrientation="portrait"
+            android:label="Balance Sheet" />
+        
+        <activity android:name=".Reciepts"
+            android:screenOrientation="portrait"
+            android:label="Reciepts" />
+        
+        <activity
+            android:name="startappzke.calsheet.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
