@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="AllowBackup">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="DuplicateUsesFeature">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="MissingVersion">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="UsesMinSdkAttributes">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+</lint>
