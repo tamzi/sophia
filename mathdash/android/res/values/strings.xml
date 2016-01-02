@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Math Dash</string>
+    <string name="app_logo">+ - * /</string>
+
+    <!-- Share -->
+    <string name="share">Share</string>
+    <string name="share_text">I just scored %1$d in Math Dash. Check it out! https://play.google.com/store/apps/details?id=com.fourpool.mathdash.android</string>
+
+    <!-- Main Page -->
+    <string name="main_title">Math Dash</string>
+    <string name="main_high_score_label">High Score:</string>
+    <string name="main_high_score">0</string>
+    <string name="main_play_button">Play</string>
+    <string name="main_leaderboard_button">Leaderboard</string>
+
+    <!-- Game Page -->
+    <string name="game_time_remaining_label">Time Remaining:</string>
+    <string name="game_solved_label">Solved:</string>
+
+    <!-- Results Page -->
+    <string name="results_title">Results</string>
+    <string name="results_correct">Correct</string>
+    <string name="results_correct_label">Correct:</string>
+    <string name="results_total_label">Total:</string>
+    <string name="results_accuracy_label">Accuracy:</string>
+    <string name="results_score_label">Score:</string>
+
+</resources>
