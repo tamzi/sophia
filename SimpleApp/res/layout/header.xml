@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#C58917" >
+
+    <LinearLayout
+        android:id="@+id/panelIconLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp" >
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHeading"
+      
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/panelIconRight"
+        android:layout_toRightOf="@id/panelIconLeft"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="Bible"
+     
+        android:textColor="#ff000000"
+		android:textStyle ="bold"
+		android:textSize="16sp"
+		android:padding="5dp"
+        
+         />
+
+    <LinearLayout
+        android:id="@+id/panelIconRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp" >
+
+  
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+1. This app provides you with stories from the bible to teach you and your children.
+
+2. To view stories, select bible stories from main menu option. You will find four stories about Jesus.
+
+3. Click on new testament option to get more stories from the new Testament .
+

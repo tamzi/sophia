@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:orientation="vertical" android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+		<TextView
+			
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Teach-Ur-Child"
+			android:textSize="16px"
+			android:textColor="#ffffff"
+			android:gravity="center_horizontal"
+			android:background="#E8A317"
+			android:textStyle="bold"
+			
+		/>
+		
+		
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"></TabWidget>
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:background="#ffffff"></FrameLayout>
+	</LinearLayout>
+
+</TabHost>

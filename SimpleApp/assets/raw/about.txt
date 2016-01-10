@@ -1,0 +1,5 @@
+Teach Ur Child is a mobile application that provides stories from the bible to teach children about the Bible.
+
+App name: Teach Ur Child.
+Version: 1.0
+Developer: ABC Systems

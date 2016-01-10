@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background = "#E8A317">
+    <!-- Header -->
+<include layout="@layout/header"/>
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="50px" 
+				/>
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+       <!-- 1st row -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        
+        <Button android:id="@+id/btnbiblestories"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="Bible Stories"
+            android:drawableTop="@drawable/bible"
+            android:background = "#E8A317"
+            android:layout_weight = "1"
+            android:textColor = "@layout/buttondesign"/>
+        <Button android:id="@+id/btnnewtest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="New Testament"
+            android:drawableTop="@drawable/test"
+            android:background = "#E8A317"
+            android:layout_weight = "1"
+            android:textColor = "@layout/buttondesign"/>
+    </LinearLayout>
+      <!-- spaces -->
+	<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="50px" 
+				/>
+				  <!-- 2nd row -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <Button android:id="@+id/btnhelp"
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="Help"
+            android:drawableTop="@drawable/help"
+             android:layout_weight = "1"
+             android:background = "#E8A317"
+             android:textColor = "@layout/buttondesign"/>
+        <Button android:id="@+id/btnabout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="About"
+            android:drawableTop="@drawable/about"
+             android:layout_weight = "1"
+             android:background = "#E8A317"
+             android:textColor = "@layout/buttondesign"/>
+    </LinearLayout>
+    <!-- Space -->
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="30px" 
+				/>
+				<!--3rd row -->
+   
+
+</LinearLayout>
+<!-- footer -->
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="30px"
+				android:text = "Copyright@2012"
+				android:background="#C58917" 
+				/>
+</LinearLayout>
